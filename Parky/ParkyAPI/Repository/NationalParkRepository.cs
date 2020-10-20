@@ -25,7 +25,7 @@ namespace ParkyAPI.Repository
             _db.NationalParks.Remove(nationalPark);
             return Save();
         }
-        public NationalPark GetNationalParks(int nationalParkId)
+        public NationalPark GetNationalPark(int nationalParkId)
         {
             return _db.NationalParks.FirstOrDefault(a => a.Id == nationalParkId);
         }
