@@ -102,7 +102,7 @@ namespace ParkyAPI.Controllers
             }
             return NoContent();
         }
-        // test
+        // test 2
         [HttpDelete("{nationalParkId:int}", Name = "DeleteNationalPark")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
