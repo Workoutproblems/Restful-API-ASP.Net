@@ -39,6 +39,7 @@ namespace ParkyAPI
 
             // Makes accessible to nay other controllers.
             services.AddScoped<INationalParkRepository, NationalParkRepository>();
+            services.AddScoped<ITrailRepository, TrailRepository>();
             services.AddAutoMapper(typeof(ParkyMappings));
             services.AddSwaggerGen(options => {
                 options.SwaggerDoc("ParkyOpenAPISpec",
