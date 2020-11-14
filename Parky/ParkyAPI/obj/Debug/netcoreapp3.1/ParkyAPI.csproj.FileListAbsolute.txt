@@ -1,6 +1,5 @@
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.exe
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.deps.json
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.runtimeconfig.json
@@ -133,3 +132,4 @@ C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Home\source\Repos\Parky\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.xml
+C:\Users\Home\Source\Repos\Parky\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\ParkyAPI.styles.css

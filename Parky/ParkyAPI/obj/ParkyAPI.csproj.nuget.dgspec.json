@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\source\\Repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj": {}
+    "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\source\\Repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj": {
+    "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\source\\Repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
         "projectName": "ParkyAPI",
-        "projectPath": "C:\\Users\\Home\\source\\Repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
+        "projectPath": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\source\\Repos\\Parky\\Parky\\ParkyAPI\\obj\\",
+        "outputPath": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
