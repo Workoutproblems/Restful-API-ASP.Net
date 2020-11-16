@@ -11,7 +11,8 @@ using ParkyAPI.Repository.IRepository;
 
 namespace ParkyAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/nationalparks")]
+    //[Route("api/[controller]")]
     [ApiController]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecNP")]
@@ -83,7 +84,8 @@ namespace ParkyAPI.Controllers
                 ModelState.AddModelError("", $"Something went wrong wehn saving the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
-            return CreatedAtRoute("GetNationalPark", new { nationalParkId = nationalParkObj.Id }, nationalParkObj);
+            return CreatedAtRoute("GetNationalPark", new { version = HttpContext.GetRequestedApiVersion().ToString(),
+                                                           nationalParkId = nationalParkObj.Id }, nationalParkObj);
         }
         [HttpPatch("{nationalParkId:int}", Name = "UpdateNationalPark")]
         [ProducesResponseType(204)]
