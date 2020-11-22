@@ -8533,20 +8533,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {}
+    "C:\\Users\\Home\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Home\\source\\repos\\Restful-API-ASP.Net\\Parky\\ParkyAPI\\ParkyAPI.csproj",
       "projectName": "ParkyAPI",
-      "projectPath": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\ParkyAPI.csproj",
+      "projectPath": "C:\\Users\\Home\\source\\repos\\Restful-API-ASP.Net\\Parky\\ParkyAPI\\ParkyAPI.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Home\\source\\repos\\Parky\\Parky\\ParkyAPI\\obj\\",
+      "outputPath": "C:\\Users\\Home\\source\\repos\\Restful-API-ASP.Net\\Parky\\ParkyAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
