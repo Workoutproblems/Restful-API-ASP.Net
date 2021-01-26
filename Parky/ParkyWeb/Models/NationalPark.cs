@@ -8,6 +8,7 @@ namespace ParkyWeb.Models
 {
     public class NationalPark
     {
+        // Model
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
