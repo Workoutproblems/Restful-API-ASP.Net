@@ -8,6 +8,7 @@ namespace ParkyWeb.Models
 {
     public class Trail
     {
+        // Trial model
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
